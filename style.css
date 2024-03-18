@@ -1,0 +1,128 @@
+@charset "UTF-8";
+@font-face {font-family:'Aero' ; src: url('Aero.ttf') format('truetype');}
+
+
+
+body{ 
+   margin: auto;
+}
+
+
+header{
+   background-color:#003990;
+   max-width: 1200px;
+   height: 300px;
+   margin: auto;
+   
+   padding: auto;
+   text-align: center;
+   color: white;
+   font-family: "Aero";
+   text-shadow: 5px 5px 5px  black;
+      
+}
+
+h1{
+   font-size: 3em;
+   margin: 0;
+   
+}
+h2{
+   background-color: #003990;
+   font-family: 'Courier New', Courier, monospace;
+   padding-bottom: 20px;
+}
+main{
+   margin: auto;
+   max-width: 1200px;
+}
+.texto{
+   font-family: "Montserrat", sans-serif; dimensionamento óptico da fonte: automático; peso da fonte: 500; estilo de fonte: normal;
+}
+
+h3{
+   margin: auto;
+   margin-top: 50px;
+   text-align: center;
+   font-size: 2em;
+   font-family: "Montserrat", sans-serif; dimensionamento óptico da fonte: automático; peso da fonte: 600; estilo de fonte: normal;
+}
+p{
+   text-align: center;
+   font-family: "Montserrat", sans-serif; dimensionamento óptico da fonte: automático; peso da fonte: 500; estilo de fonte: normal;
+   margin-inline-start: 10px;
+   margin-inline-end: 10px;
+   
+   
+
+}
+img.imagem1{
+   padding-top: 20px;
+   width: 150px;
+   height: 150px;
+   
+   
+}
+#escudos1{
+
+   text-align: center;
+  
+}
+img.escudo{
+   padding-top: 40px;
+   margin: 0;
+   width: 250px;
+   height: 95px;
+   
+}
+.quadrado{
+
+   display: inline-block;
+   background-color: lightgrey;
+   border-radius: 10px;
+   border: 1px solid black;
+   width: 300px;
+   height: 300px;
+}
+.whatsapp{
+   margin: auto;
+   position: fixed;
+   bottom: 30px;
+   right: 30px;
+   z-index: 9999;
+   width: 75px;
+   height: 75px;
+
+
+}
+.imagem2 {
+   margin: auto;
+   display: flex;
+   padding-top: 40px;
+   align-items: center;
+   width: 250px;
+   
+}
+
+
+footer {
+   margin: auto;
+   border-width: 1200px;
+   padding-top: 40px;
+   padding-bottom: 40px;
+   
+}
+
+footer p{
+   
+   background-color: lightgray;
+   
+}
+.ads{
+   margin: auto;
+   display: flex;
+   padding-top: 30px;
+   align-items: center;
+   width: 250px;
+   
+}
